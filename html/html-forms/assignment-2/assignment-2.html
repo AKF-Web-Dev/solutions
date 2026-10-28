@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 1</title>
+
+    <style>
+      body {
+        width: 40vw;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header section of the page -->
+    <header>
+      <h1>Student Registration</h1>
+    </header>
+
+    <!-- HTML Forms -->
+    <form>
+      <!-- Personal Information fieldset -->
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="fname">Full Name</label>
+        <br />
+        <input
+          type="text"
+          name="fname"
+          id="fname"
+          placeholder="Enter your full name"
+        />
+        <br /><br />
+        <label for="email">Email address</label>
+        <br />
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Enter your email address"
+        />
+        <br /><br />
+        <label for="phone">Phone Number</label>
+        <br />
+        <input type="tel" id="phone" name="phone" />
+        <br /><br />
+        <label for="pass">Password</label>
+        <br />
+        <input
+          type="password"
+          name="pass"
+          id="pass"
+          placeholder="************"
+        />
+        <br /><br />
+        <label for="search">Search Course</label>
+        <br />
+        <input type="search" name="search" id="search" />
+      </fieldset>
+      <br />
+
+      <!-- Filedset for Academic Details -->
+      <fieldset>
+        <legend>Academic Details</legend>
+        <p>Single Choice</p>
+        <input type="radio" name="gender" id="gender" />
+        <label for="radio">Male</label>
+        <input type="radio" name="gender" id="gender" />
+        <label for="gender">Female</label>
+
+        <br /><br />
+        <p>Multiple Choice</p>
+        <input type="checkbox" name="html" id="html" />
+        <label for="html">HTML</label>
+        <input type="checkbox" name="english" id="english" />
+        <label for="english">English</label>
+        <input type="checkbox" name="js" id="js" />
+        <label for="js">JavaScript</label>
+
+        <br /><br />
+
+        <!-- Select and option -->
+
+        <label for="grade">Select Grade</label>
+
+        <select name="" id="">
+          <option value="">Choose your grade</option>
+          <option value="grade1">Grade 1</option>
+          <option value="grade2">Grade 2</option>
+          <option value="grade3">Grade 3</option>
+          <option value="grade4">Grade 4</option>
+          <option value="grade5">Grade 5</option>
+          <option value="grade6">Grade 6</option>
+          <option value="grade7">Grade 7</option>
+          <option value="grade8">Grade 8</option>
+          <option value="grade9">Grade 9</option>
+          <option value="grade10">Grade 10</option>
+          <option value="grade11">Grade 11</option>
+          <option value="grade12" selected>Grade 12</option>
+        </select>
+        <br /><br />
+
+        <!-- Textarea section for notes -->
+        <label for="note">Additional Notes</label>
+        <br />
+        <textarea name="note" id="note" rows="4" cols="40"></textarea>
+      </fieldset>
+
+      <br />
+
+      <div style="text-align: center">
+        <button type="submit" style="margin-right: 10px">Register</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </body>
+</html>
