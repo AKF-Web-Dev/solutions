@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 1</title>
+  </head>
+  <body>
+    <!-- Header section of the page -->
+    <header>
+      <h1>Assignment 1: Student Registration</h1>
+      <p>Recreate this page using HTML only. Do not use CSS or JavaScript.</p>
+      <h2>Studnet Registration Form</h2>
+      <p>Complete the form below to register for a course.</p>
+    </header>
+
+    <!-- HTML Forms -->
+    <form>
+      <!-- Personal Information fieldset -->
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="fname">Full Name</label>
+        <br />
+        <input
+          type="text"
+          name="fname"
+          id="fname"
+          placeholder="Enter your full name"
+        />
+        <br /><br />
+        <label for="email">Email address</label>
+        <br />
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Enter your email address"
+        />
+        <br /><br />
+        <label for="pass">Password</label>
+        <br />
+        <input
+          type="password"
+          id="pass"
+          name="pass"
+          placeholder="Create a password"
+        />
+        <br /><br />
+        <label for="age">Age</label>
+        <br />
+        <input type="number" name="age" id="age" />
+        <br /><br />
+        <label for="image">Student photo</label>
+        <br />
+        <input type="file" name="image" id="image" />
+      </fieldset>
+      <br />
+
+      <!-- Filedset for course perferences -->
+      <fieldset>
+        <legend>Course Perferences</legend>
+        <p>Study Schedule</p>
+        <input type="radio" name="course" id="course" />
+        <label for="radio">Morning</label>
+        <input type="radio" name="course" id="course" />
+        <label for="course">Afternoon</label>
+
+        <br /><br />
+        <p>Coueses of interest</p>
+        <input type="checkbox" name="html" id="html" />
+        <label for="html">HTML</label>
+        <input type="checkbox" name="english" id="english" />
+        <label for="english">English</label>
+        <input type="checkbox" name="math" id="math" />
+        <label for="math">Mathematics</label>
+
+        <br /><br />
+        <input type="checkbox" name="terms" id="terms" />
+        <label for="terms">I agree to the registration terms.</label>
+      </fieldset>
+
+      <br />
+      <button type="submit">Register</button>
+      <button type="reset">Reset</button>
+    </form>
+    <br />
+    <hr />
+    <h4>HTML requirements</h4>
+    <p>Form: method="post", action-"/register".</p>
+    <p>Use fieldset, legend, labels, and all eight input types shown.</p>
+    <p>Give each input a name; give each labeled input a unique id.</p>
+    <p>Radio options share one name. Use submit and reset buttons.</p>
+    <p>
+      Below your form, explain: name submits data; id links a lebel to an input.
+    </p>
+  </body>
+</html>
