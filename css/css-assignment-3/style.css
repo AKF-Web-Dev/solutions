@@ -9,6 +9,7 @@ html {
 body {
   width: 100vw;
   height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* aside style  */
@@ -76,13 +77,53 @@ nav a {
 
 header {
   padding: 40px;
-  line-height: 80px;
+  line-height: 60px;
+
+  width: 55%;
 }
 
 header h1 {
   font-size: 80px;
 }
 header hr {
-  width: 80px;
+  margin-top: 20px;
+  width: 100px;
   border: 3px solid rgb(139, 9, 232);
+}
+
+header p {
+  font-size: 35px;
+}
+
+.skills {
+  padding: 40px;
+  line-height: 50px;
+}
+
+.skills h2 {
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+span {
+  font-size: 18px;
+  color: white;
+  padding: 10px 40px 10px 40px;
+  background-color: blueviolet;
+
+  border-radius: 40px;
+}
+
+.skills {
+  width: 60%;
+}
+
+button {
+  margin-top: 30px;
+  width: 60%;
+  background-color: blueviolet;
+  padding: 15px 0 15px 0;
+  font-size: 30px;
+  color: white;
+  border: none;
+  border-radius: 20px;
 }
