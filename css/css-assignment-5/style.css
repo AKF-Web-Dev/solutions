@@ -1,0 +1,145 @@
+:root {
+  --body-background: #cacbcd;
+  --main-background: #eef0f2;
+  --basic-card-background: #f6f8fa;
+  --pro-card-background: #21302c;
+  --basic-btn-background: #191c1e;
+  --basic-btn-font: #f2f5f2;
+  --pro-btn-background: #7fd997;
+  --pro-btn-font: #295b37;
+}
+
+*,
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--body-background);
+  /* padding: 100px 80px; */
+}
+
+main {
+  height: 80%;
+  width: 90%;
+  background-color: var(--main-background);
+  border-radius: 20px;
+  padding: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+main header h1 {
+  font-size: 3.5rem;
+}
+main header p {
+  font-size: 1.8rem;
+}
+
+section {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card-container {
+  width: 25%;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.basic-card,
+.enterprise-card {
+  background-color: var(--basic-card-background);
+
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:
+    27px 27px 53px #a4a4a4,
+    -27px -27px 53px #ffffff;
+}
+
+.pro-card {
+  background-color: var(--pro-card-background);
+  color: #fff;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 3.5rem;
+}
+
+.card-sub-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.btn-section button {
+  height: 3rem;
+  width: 22rem;
+  border: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.basic-card button,
+.enterprise-card button {
+  background-color: var(--basic-btn-background);
+  color: var(--basic-btn-font);
+}
+
+.pro-card button {
+  background-color: var(--pro-btn-background);
+  color: var(--pro-btn-font);
+}
+
+.pro-main-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pro-main-title p {
+  background-color: var(--pro-btn-background);
+  color: var(--pro-btn-font);
+  padding: 5px;
+  border-radius: 8px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+ul li {
+  list-style: none;
+  font-size: 1.2rem;
+  display: flex;
+  gap: 10px;
+}
