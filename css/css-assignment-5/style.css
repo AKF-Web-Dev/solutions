@@ -143,3 +143,23 @@ ul li {
   display: flex;
   gap: 10px;
 }
+
+.radio-btn-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.container-box {
+  height: 2rem;
+  width: 4rem;
+  border-radius: 1rem;
+  background-color: var(--pro-card-background);
+  padding: 2px 0px 3px 2px;
+}
+
+.box {
+  height: 1.7rem;
+  width: 1.7rem;
+  background-color: var(--pro-btn-background);
+  border-radius: 50%;
+}
