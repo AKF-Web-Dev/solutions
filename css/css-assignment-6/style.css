@@ -146,6 +146,6 @@ button {
   font-weight: bold;
   background-color: var(--special-btn-background);
   color: white;
-  border-radius: 10px;
+  border-radius: 15px;
   border: none;
 }
