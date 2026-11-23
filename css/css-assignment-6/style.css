@@ -82,7 +82,8 @@ section {
   background-color: var(--section-background);
   border: 3px solid var(--border-color);
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding: 50px;
 }
 
