@@ -76,7 +76,7 @@ main {
 }
 
 section {
-  height: 80%;
+  height: auto;
   width: 60%;
   border-radius: 30px;
   background-color: var(--section-background);
@@ -119,4 +119,33 @@ h1 {
 p {
   font-size: 2rem;
   color: var(--special-paragraph-font-color);
+}
+
+small {
+  font-size: 1.5rem;
+}
+
+.budge-container {
+  display: flex;
+  gap: 2rem;
+}
+
+span {
+  padding: 10px 30px 10px 30px;
+  background-color: var(--simple-btn-background);
+  color: var(--simple-btn-font-color);
+  font-size: 1.7rem;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+button {
+  height: 55px;
+  width: 180px;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: var(--special-btn-background);
+  color: white;
+  border-radius: 10px;
+  border: none;
 }
