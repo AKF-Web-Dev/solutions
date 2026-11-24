@@ -27,6 +27,23 @@ body {
   width: 100vw;
   display: flex;
   flex-direction: column;
+  padding: 60px 150px 60px 150px;
   align-items: center;
   background-color: var(--body-background);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.budge {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: var(--header-btn-font);
+  padding: 5px 10px 5px 10px;
+  background-color: var(--header-btn-backgroud);
+  border-radius: 10px;
+  font-weight: bold;
 }
