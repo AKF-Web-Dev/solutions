@@ -39,11 +39,40 @@ header {
   gap: 10px;
 }
 .budge {
-  font-size: 0.7rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
   color: var(--header-btn-font);
-  padding: 5px 10px 5px 10px;
+  padding: 10px 20px 10px 20px;
   background-color: var(--header-btn-backgroud);
-  border-radius: 10px;
+  border-radius: 20px;
   font-weight: bold;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  text-transform: capitalize;
+}
+
+p {
+  text-transform: capitalize;
+  color: var(--header-paragraph-font);
+  font-size: 1.6rem;
+}
+
+.cards {
+  margin-top: 20px;
+  height: 400px;
+  width: 300px;
+  background-color: var(--card-background);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+figure img {
+  height: 130px;
+  width: 260px;
+  border-radius: 20px;
+  background-position: center center;
+  background-size: contain;
 }
