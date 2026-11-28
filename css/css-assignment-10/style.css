@@ -62,7 +62,7 @@ p {
 
 .cards {
   margin-top: 20px;
-  height: 500px;
+  height: 550px;
   width: 350px;
   background-color: var(--card-background);
   padding: 20px;
@@ -104,4 +104,37 @@ figure img {
   height: 1px;
   background-color: silver;
   border-radius: 5px;
+}
+
+.list-container {
+  width: 100%;
+  padding-left: 20px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  list-style-type: "✔ ";
+}
+ul li {
+  font-size: 1.5rem;
+}
+
+ul li::marker {
+  color: var(--header-btn-font);
+}
+
+button {
+  height: 3.5rem;
+  width: 310px;
+  border-radius: 10px;
+  border: none;
+  border: 2px solid var(--border-color);
+  font-size: 1.7rem;
+  color: var(--pro-card-btn-background);
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
 }
