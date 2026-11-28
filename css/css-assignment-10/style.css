@@ -32,6 +32,11 @@ body {
   background-color: var(--body-background);
 }
 
+main {
+  display: flex;
+  gap: 30px;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -62,7 +67,7 @@ p {
 
 .cards {
   margin-top: 20px;
-  height: 550px;
+  height: 635px;
   width: 350px;
   background-color: var(--card-background);
   padding: 20px;
@@ -71,6 +76,11 @@ p {
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  box-shadow: 5px 5px 50px 2px rgba(0, 0, 0, 0.5);
+}
+
+.cards:hover {
+  border: 4px solid var(--border-color);
 }
 
 figure img {
@@ -115,6 +125,7 @@ ul {
   flex-direction: column;
   align-items: start;
   list-style-type: "✔ ";
+  gap: 15px;
 }
 ul li {
   font-size: 1.5rem;
@@ -137,4 +148,24 @@ button {
   align-items: center;
   gap: 10px;
   justify-content: center;
+}
+
+.card-2 button {
+  background-color: var(--pro-card-btn-background);
+  color: #fff;
+}
+
+button i {
+  font-size: 1.5rem;
+}
+
+.header-btn-container button {
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.card-1 button,
+.card-3 button {
+  position: relative;
+  top: 50px;
 }
